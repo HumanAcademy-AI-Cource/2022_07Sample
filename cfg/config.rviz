@@ -4,7 +4,6 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Marker1/Status1
         - /Image1
       Splitter Ratio: 0.5
     Tree Height: 354
@@ -57,7 +56,7 @@ Visualization Manager:
       Marker Topic: /face_block
       Name: Marker
       Namespaces:
-        face_shapes: true
+        {}
       Queue Size: 100
       Value: true
     - Class: rviz/Image
@@ -71,6 +70,14 @@ Visualization Manager:
       Queue Size: 2
       Transport Hint: raw
       Unreliable: false
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /motor_arrow
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 100
       Value: true
   Enabled: true
   Global Options:
@@ -138,5 +145,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1559
-  X: 59
+  X: 58
   Y: 28
